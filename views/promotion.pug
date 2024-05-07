@@ -1,0 +1,9 @@
+html
+  head
+    title= name
+    link(rel="stylesheet" href="/public/css/links.css")
+  body
+    div.container(style=bg?"background-image: url("+bg+")":"")
+      a.link.weixin(href=weixin)= "跳转微信" 
+
+    script(src="/public/js/rem.js") 

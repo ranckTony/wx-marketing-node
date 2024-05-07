@@ -3,7 +3,9 @@ html
     title= title
     link(rel="stylesheet", href="/public/css/links.css")
   body
-    h1.links-header= content
-    a(href="https://work.weixin.qq.com/ca/cawcdeb56056c3ac53")= "跳转微信1" 
+    div.container
+      h1.links-header= title 
+      p.content= content
+      a.link(href="https://work.weixin.qq.com/ca/cawcdeb56056c3ac53")= "跳转微信1" 
 
     script(src="/public/js/rem.js") 
